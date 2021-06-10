@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+svg {
+    display: block;
+}
+
+// variables
+
+:root {
+    font-size: 10px;
+    --bg: #d9e6ff;
+    --heading: #405b7c;
+    --text: #555555;
+}
